@@ -49,7 +49,6 @@ export default function MicroMarket() {
               <PackageOpen className="w-5 h-5 text-red-700 mt-1 flex-shrink-0" />
               <p className="text-md text-black font-semibold">Open design with shelves and coolers for more choice</p>
             </div>
-            
             <div className="flex items-start gap-3 bg-white rounded-md shadow-sm p-4 hover:scale-105 transition-smooth duration-300">
               <LayoutDashboard className="w-5 h-5 text-red-700 mt-1 flex-shrink-0" />
               <p className="text-md text-black font-semibold">Customized fixtures and signage to fit your workplace</p>
