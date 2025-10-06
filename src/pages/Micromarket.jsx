@@ -45,6 +45,7 @@ export default function MicroMarket() {
               <CreditCard className="w-5 h-5 text-red-700 mt-1 flex-shrink-0" />
               <p className="text-md text-black font-semibold">Self-checkout kiosk for easy, cashless purchasing</p>
             </div>
+
             
             <div className="flex items-start gap-3 bg-white rounded-md shadow-sm p-4 hover:scale-105 transition-smooth duration-300">
               <PackageOpen className="w-5 h-5 text-red-700 mt-1 flex-shrink-0" />
