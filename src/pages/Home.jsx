@@ -1,57 +1,17 @@
 import React from "react";
+import ServingSection from "../components/ServingSection";
 
 const Home = () => {
   return (
     <main className="bg-white">
-
-      {/* Features Section */}
-     <section className="w-full flex justify-center py-12">
-        <div className="w-full max-w-6xl bg-gray-100 rounded-md shadow-sm p-8">
-          {/* Intro Heading */}
-          <h2 className="text-2xl md:text-3xl font-semibold text-gray-900 mb-2">
-            Proudly Serving Connecticut
-          </h2>
-          <p className="text-gray-600 mb-6">
-            Bees Vending is your local, family-owned company with over 50 years of combined experience.
+      <ServingSection />
+      
+      {/* Service Area Banner */}
+      <section className="w-full bg-red-600 text-white py-6">
+        <div className="max-w-7xl mx-auto px-6 text-center">
+          <p className="text-base text-white md:text-lg font-medium leading-relaxed">
+            Our service area includes but is not limited to: Waterbury, Prospect, Cheshire, Naugatuck, Wolcott, Southington, East Hartford, Farmington, Hartford, Middletown, New Britain, Rocky Hill, Southington, West Hartford, Wethersfield and Windsor.
           </p>
-
-          {/* Buttons */}
-          <div className="flex flex-col md:flex-row gap-4 mb-8">
-            <a
-              href="/vending"
-              className="bg-red-600 md:w-80 text-center hover:bg-red-700 text-white px-6 py-3 rounded-md font-medium transition"
-            >
-              Explore Vending
-            </a>
-            <a
-              href="/contact"
-              className="bg-white border md:w-60 text-center border-gray-300 hover:bg-gray-100 text-red-600 px-6 py-3 rounded-md font-medium transition"
-            >
-              Contact Us
-            </a>
-          </div>
-
-          {/* Cards */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            <div className="bg-white rounded-md shadow-sm p-4 hover:scale-105 transition-smooth duration-300">
-              <h3 className="font-semibold text-gray-900 mb-1">Vending Machines</h3>
-              <p className="text-sm text-gray-600">
-                Reliable, modern machines stocked with everyone's favorite snacks and beverages
-              </p>
-            </div>
-            <div className="bg-white rounded-md shadow-sm p-4 hover:scale-105 transition-smooth duration-300">
-              <h3 className="font-semibold text-gray-900 mb-1">Micro-Markets</h3>
-              <p className="text-sm text-gray-600">
-                Fresh, open-shelf markets like an on-site convenience store
-              </p>
-            </div>
-            <div className="bg-white rounded-md shadow-sm p-4 hover:scale-105 transition-smooth duration-300">
-              <h3 className="font-semibold text-gray-900 mb-1">Healthy Options</h3>
-              <p className="text-sm text-gray-600">
-                Nutritious, satisfying selections to keep your team fueled
-              </p>
-            </div>
-          </div>
         </div>
       </section>
 

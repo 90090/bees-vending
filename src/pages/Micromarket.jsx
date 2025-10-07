@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { motion } from "framer-motion";
 import { Apple, CreditCard, LayoutDashboard, PackageOpen } from "lucide-react";
 
 const testimonials = [
@@ -27,7 +28,7 @@ export default function MicroMarket() {
         <div className="lg:w-1/2 flex flex-col justify-center">
           <h1 className="text-4xl font-bold mb-6">Micro Markets</h1>
           <p className="text-lg">
-            Transform your break room into a 24/7 self-serve mini store.
+            Transform your break room into a 24/7 self-serve mini store. Equipped with all your favorite snacks, beverages including pre-packaged fresh meal options. Our Micro-Markets are branded to your space and secured to create a safe and convenient transaction for all. 
           </p>
         </div>
         <div className="lg:w-1/2 grid grid-cols-1 gap-4">
@@ -60,14 +61,43 @@ export default function MicroMarket() {
       </section>
 
       {/* Image Section */}
-      <section className="max-w-7xl mx-auto px-6 py-12">
-        {/* <h2 className="text-2xl font-semibold mb-6">Gallery</h2> */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-          <div className="bg-gray-200 h-48 rounded">Image 1</div>
-          <div className="bg-gray-200 h-48 rounded">Image 2</div>
-          <div className="bg-gray-200 h-48 rounded">Image 3</div>
+      <section className="max-w-7xl mx-auto px-6 py-16">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {/* Left (Portrait) */}
+          <motion.img
+            src="/leftmarket.png"
+            alt="Gallery Image 1"
+            className="w-full h-[450px] md:h-[600px] object-cover rounded-lg shadow-sm hover:scale-105 transition-transform duration-500"
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, amount: 0.2 }}
+            transition={{ duration: 0.6 }}
+          />
+
+          {/* Middle (Landscape) */}
+          <motion.img
+            src="/bees_2.png"
+            alt="Gallery Image 2"
+            className="w-full h-[300px] md:h-[400px] object-cover rounded-lg shadow-sm md:mt-24 hover:scale-105 transition-transform duration-500"
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, amount: 0.2 }}
+            transition={{ duration: 0.7, delay: 0.2 }}
+          />
+
+          {/* Right (Portrait) */}
+          <motion.img
+            src="/rightmarket.png"
+            alt="Gallery Image 3"
+            className="w-full h-[450px] md:h-[600px] object-cover rounded-lg shadow-sm hover:scale-105 transition-transform duration-500"
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, amount: 0.2 }}
+            transition={{ duration: 0.7, delay: 0.4 }}
+          />
         </div>
       </section>
+
 
       {/* Testimonials */}
       <section className="bg-gray-50 py-16">

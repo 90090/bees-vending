@@ -14,8 +14,7 @@ export default function About() {
           {/* Text Content */}
           <div className="text-left md:text-center">
             <p className="text-lg mb-4">
-              Bees Vending is a family-owned business specializing in vending
-              machines and micro-markets with the option to add more.
+              Bees Vending is a family-owned business specializing in vending machines and micro-markets. Customer service is our priority, we work with you to customize your workplace refreshment solution to fit your needs including technology, enhanced service, and 24/7 customer help line complete the package to produce unbeatable workplace refreshment services.
             </p>
             <p className="text-lg font-semibold">
               Our mission: deliver customized snack and refreshment solutions

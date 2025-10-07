@@ -7,9 +7,9 @@ export default function SideBannerSection() {
             {/* Left Image */}
             <div className="flex justify-center items-center p-4 md:p-6">
             <img
-                src="/truck.JPG"
+                src="/Bees_Food2.png"
                 alt="Bees Vending team at work"
-                className="max-w-xs sm:max-w-sm md:max-w-md h-auto object-cover rounded-md shadow-md"
+                className="max-w-xs sm:max-w-sm md:max-w-md h-auto object-cover rounded-md"
             />
             </div>
 
