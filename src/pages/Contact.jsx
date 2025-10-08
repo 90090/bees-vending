@@ -11,7 +11,7 @@ const faqs = [
   {
     question: "How often are machines restocked?",
     answer:
-      "As often as needed. All accounts will be re-stocked a minimum of once a week.",
+      "As often as needed based on sales frequency.",
   },
   {
     question: "What condition are the vending machines in?",
@@ -21,7 +21,7 @@ const faqs = [
   {
     question: "What is the procedure if someone loses money in the machines?",
     answer:
-      "Vending machines from time to time do take people's money. We can supply a refund bank for on-the-spot refunds. Our route drivers will also issue refunds and place refund envelopes on the machines.",
+      "Vending machines from time to time do take people's money. We can supply a refund bank for on-the-spot refunds. Our route drivers will also issue refunds.",
   },
   {
     question: "If a machine has a problem how quickly do you respond to fix it?",
@@ -41,7 +41,7 @@ const faqs = [
   {
     question: "How long does it take for delivery/installation and what is the process?",
     answer:
-      "Once you give us the go ahead to move machines in we will be ready to go within 14 days. In the event that you already have a vendor we can facilitate the change over to meet your convenience to move out. If you need the machines sooner than that we will make it happen. After we agree on an installation date, it shouldn't take more than 4 hours to move the machines in and get them all set up and working.",
+      "Once you give us the go ahead to move machines in we will be ready to go. In the event that you already have a vendor we can facilitate the change over to meet your convenience to move out. If you need the machines sooner than that we will make it happen. After we agree on an installation date, it shouldn't take more than 4 hours to move the machines in and get them all set up and working.",
   },
   {
     question: "What are your service days and hours?",

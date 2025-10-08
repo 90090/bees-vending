@@ -195,19 +195,19 @@ export default function VendingSection() {
       <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-3 max-w-3xl mx-auto text-sm md:text-base text-gray-700">
         <div className="flex items-start space-x-2">
           <Candy className="w-6 h-6 text-red-600" />
-          <span>National brand favorites plus healthy selections</span>
+          <span className="">National brand favorites plus healthy selections</span>
         </div>
         <div className="flex items-start space-x-2">
           <CreditCard className="w-6 h-6 text-red-600" />
-          <span>Cashless payments: credit, debit, and mobile</span>
+          <span className="">Cashless payments: credit, debit, and mobile</span>
         </div>
         <div className="flex items-start space-x-2">
           <Smartphone className="w-6 h-6 text-red-600" />
-          <span>Remote monitoring to keep machines full & working</span>
+          <span className="">Remote monitoring to keep machines full & working</span>
         </div>
         <div className="flex items-start space-x-2">
           <Wrench className="w-6 h-6 text-red-600" />
-          <span>24/7 support for quick service when you need it</span>
+          <span className="whitespace-nowrap">24/7 support for quick service when you need it</span>
         </div>
       </div>
     </div>
@@ -268,7 +268,7 @@ export default function VendingSection() {
                       key={`${activeCategory}-${pageIdx}-${idx}`}
                       className="bg-white rounded-2xl shadow-md border border-gray-100 p-6 hover:shadow-xl transition cursor-pointer flex flex-col items-center text-center"
                     >
-                      <div className="w-40 h-40 rounded-xl bg-gray-50 flex items-center justify-center overflow-hidden mb-4">
+                      <div className="w-40 h-40 rounded-xl flex items-center justify-center overflow-hidden mb-4">
                         <img
                           src={item.img}
                           alt={item.name}

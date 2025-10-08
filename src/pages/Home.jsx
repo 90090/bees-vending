@@ -23,20 +23,24 @@ const Home = () => {
       {/* Left side - Content */}
       <div className="p-6 lg:p-10 flex flex-col justify-center">
         <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-3">
-          Featuring Vending Monitoring Technology
+          Featuring Smart Cooler Technology
         </h2>
         <p className="text-gray-600 text-base leading-relaxed">
-          All our vending machines come equipped with remote monitoring technology,
-          allowing us to track inventory levels, machine status, and sales data in real-time.
-          This ensures your machines are always stocked and functioning optimally.
-          Plus, our cashless payment options make transactions quick and easy for your employees.
+          Revolutionize the way you access snacks and drinks! Our Smart Cooler allows customers to simply tap their 
+          card, grab what they want, and go, no lines, no waiting. Perfect for standalone use or in markets where 
+          traditional coolers face high shrinkage, it combines convenience, security, and seamless checkout 
+          technology in one sleek, modern unit.
         </p>
       </div>
+      {/* //All our vending machines come equipped with remote monitoring technology,
+          allowing us to track inventory levels, machine status, and sales data in real-time.
+          This ensures your machines are always stocked and functioning optimally.
+          Plus, our cashless payment options make transactions quick and easy for your employees. */}
 
       {/* Right side - Image container */}
       <div className=" flex items-center justify-center min-h-[200px]">
           <img
-            src="/vending.jpg"
+            src="/smartcooler.jpg"
             alt="Vending machine with cashless payment"
             className="rounded-lg shadow-md object-contain h-96 w-auto"
           />
