@@ -182,6 +182,10 @@ export default function VendingSection() {
 
   return (
     <div className="max-w-6xl mx-auto px-4 py-12">
+      <head>
+       <title> Vending | Bee's Vending | Expert Vending Machines & Micro-Markets</title>
+       <meta name="description" content="Discover Bee's Vending solutions for your workplace. Learn about our vending machines and micro-markets today!" />
+      </head>
       {/* Intro copy */}
     <div className="text-center mb-10">
       <h2 className="text-2xl md:text-3xl font-bold text-gray-900">

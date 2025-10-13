@@ -4,6 +4,10 @@ import SideBannerSection from "../components/SideBanner";
 export default function About() {
   return (
     <div className="bg-white text-gray-900">
+      <head>
+       <title> About | Bee's Vending | Expert Vending Machines & Micro-Markets</title>
+       <meta name="description" content="Learn about Bee's Vending, our story, and our commitment to quality vending machines and micro-markets. Proudly serving local businesses and organizations." />
+      </head>
       {/* About Us Section */}
       <section className="max-w-5xl mx-auto px-6 py-16 text-center">
         <h1 className="text-4xl font-bold mb-6">About Us</h1>

@@ -4,6 +4,10 @@ import ServingSection from "../components/ServingSection";
 const Home = () => {
   return (
     <main className="bg-white">
+      <head>
+       <title> Home | Bee's Vending | Expert Vending Machines & Micro-Markets</title>
+       <meta name="description" content="Bee's Vending provides top-notch vending machines and micro-markets tailored to your business needs. Discover our innovative solutions today!" />
+      </head>
       <ServingSection />
       
       {/* Service Area Banner */}
@@ -40,9 +44,9 @@ const Home = () => {
       {/* Right side - Image container */}
       <div className=" flex items-center justify-center min-h-[200px]">
           <img
-            src="/smartcooler.jpg"
+            src="/AICooler.png"
             alt="Vending machine with cashless payment"
-            className="rounded-lg shadow-md object-contain h-96 w-auto"
+            className="rounded-lg object-contain h-96 w-auto"
           />
       </div>
 

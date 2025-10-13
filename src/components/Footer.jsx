@@ -40,7 +40,7 @@ const Footer = () => {
         {/* Right side - Social icons */}
         <div className="flex space-x-4">
           <a
-            href="https://instagram.com"
+            href="https://www.instagram.com/beesvendingct/"
             target="_blank"
             rel="noopener noreferrer"
             className="w-10 h-10 flex items-center justify-center bg-white rounded-full text-slate-900 hover:bg-pink-500 hover:text-white transition-colors"
@@ -48,7 +48,7 @@ const Footer = () => {
             <FaInstagram size={18} />
           </a>
           <a
-            href="https://facebook.com"
+            href="https://www.facebook.com/beesvendingct/"
             target="_blank"
             rel="noopener noreferrer"
             className="w-10 h-10 flex items-center justify-center bg-white rounded-full text-slate-900 hover:bg-blue-600 hover:text-white transition-colors"

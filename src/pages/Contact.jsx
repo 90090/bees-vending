@@ -58,6 +58,10 @@ export default function Contact() {
 
   return (
     <div className="max-w-3xl mx-auto px-4 py-8 space-y-10">
+      <head>
+       <title> Contact | Bee's Vending | Expert Vending Machines & Micro-Markets</title>
+       <meta name="description" content="Get in touch with Bee's Vending for quotes, orders, or questions. Contact us today to start your vending machine or micro-market project." />
+      </head>
       <h2 className="text-3xl font-bold text-center text-gray-900">Ready to upgrade your break room? Contact Bees Vending today.</h2>
       <ContactForm />
 

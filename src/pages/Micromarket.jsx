@@ -23,6 +23,10 @@ export default function MicroMarket() {
 
   return (
     <div className="bg-white text-gray-900">
+      <head>
+       <title> MicroMarket | Bee's Vending | Expert Vending Machines & Micro-Markets</title>
+       <meta name="description" content="Discover Bee's Vending Micro-Markets, the innovative solution for your workplace. Learn about our offerings and how we can enhance your break room experience." />
+      </head>
       {/* Hero Section */}
       <section className="max-w-7xl mx-auto px-6 py-16 flex flex-col lg:flex-row gap-12">
         <div className="lg:w-1/2 flex flex-col justify-center">

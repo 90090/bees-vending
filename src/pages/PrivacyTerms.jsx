@@ -1,6 +1,10 @@
 export default function PrivacyTerms() {
   return (
     <div className="max-w-4xl mx-auto px-6 py-12 text-gray-800">
+      <head>
+       <title> Privacy & Terms | Bee's Vending | Expert Vending Machines & Micro-Markets</title>
+       <meta name="description" content="Learn about Bee's Vending privacy practices and terms of service. Your trust is important to us." />
+      </head>
       <h1 className="text-3xl font-bold mb-6">Privacy & Terms</h1>
       <p className="text-sm text-gray-500 mb-8">Last Updated: October 1, 2025</p>
 
