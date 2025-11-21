@@ -2,33 +2,29 @@
   RewriteEngine On
   RewriteBase /
 
-  # --- 301 Redirect old PHP pages to new URLs ---
-  Redirect 301 /contact.php /contact
-  Redirect 301 /faq.php /contact
-  Redirect 301 /beverages.php /vending
-  Redirect 301 /healthy.php /vending
-  Redirect 301 /southington.php /
-  Redirect 301 /technology.php /
-  Redirect 301 /snacks.php /vending
-  Redirect 301 /coffee.php /vending
-  Redirect 301 /micro-markets.php /micromarket
-  Redirect 301 /services.php /about
-  # --- End redirects ---
-
   # --- 410 Gone for permanently removed pages ---
-  RewriteRule ^old-page1/?$ - [G,L]
-  RewriteRule ^old-page2/?$ - [G,L]
-  # Add more permanently deleted pages here as needed
+  RewriteRule ^contact\.php$ - [G,L]
+  RewriteRule ^faq\.php$ - [G,L]
+  RewriteRule ^southington\.php$ - [G,L]
+  RewriteRule ^healthy\.php$ - [G,L]
+  RewriteRule ^beverages\.php$ - [G,L]
+  RewriteRule ^technology\.php$ - [G,L]
+  RewriteRule ^snacks\.php$ - [G,L]
+  RewriteRule ^coffee\.php$ - [G,L]
+  RewriteRule ^micro-markets\.php$ - [G,L]
+  RewriteRule ^services\.php$ - [G,L]
+  RewriteRule ^index\.php$ - [G,L]
+  RewriteRule ^waterbury\.php$ - [G,L]
+  RewriteRule ^why-us\.php$ - [G,L]
+  RewriteRule ^food\.php$ - [G,L]
+  RewriteRule ^vending\.php$ - [G,L]
+  RewriteRule ^about\.php$ - [G,L]
 
-  # --- Serve index.html for valid React routes ---
-  # List your React routes here to avoid 404
-  RewriteRule ^(index\.html|contact|about|vending|micromarket)/?$ - [L]
-
-  # --- Catch-all: serve index.html for other SPA routes ---
+  # --- Serve index.html for all SPA routes ---
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{REQUEST_FILENAME} !-d
-  RewriteRule . /index.html [L]
+  RewriteRule ^ index.html [L]
 
-  # --- Custom 404 page ---
+  # --- Custom 404 page (for URLs that hit a real file that doesn’t exist, rarely used) ---
   ErrorDocument 404 /404.html
 </IfModule>
