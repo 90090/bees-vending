@@ -8,6 +8,7 @@ import Micromarket from './pages/Micromarket';
 import Vending from './pages/Vending';
 import Contact from './pages/Contact';
 import PrivacyTerms from './pages/PrivacyTerms';
+import NotFound from "./pages/NotFound";
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
         <Route path="/vending" element={<Vending />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/privacyterms" element={<PrivacyTerms />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
     </Router>
